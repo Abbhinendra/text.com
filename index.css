@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(48, 6, 77);
+}
+.container{
+    height: 70vh;
+    margin-top: 2%;
+}
+.container .content{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin: auto;
+}
+
+.container .content .box textarea{
+    width: 420px;
+    height: 160px;
+    resize: none;
+    margin: auto;
+}
+.container .content .box{
+    padding: 14px 14px 14px 14px;
+    background-color: rgb(54, 54, 99);
+    max-width: max-content;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+}
+.box input{
+    font-size: 18px;
+    font-weight: 700;
+    border:2px solid lightblue;
+    outline: 2px solid lightblue;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.box select{
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(71, 71, 116);
+    color: white;
+}
+
+button{
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding:8px 0;
+    background-color:rgb(32, 32, 93);
+    opacity: 0.2; 
+    pointer-events: none;
+    cursor: pointer;  
+}
+
+@media screen and (max-width: 460px) {
+    .container .content{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .container .content .box textarea{
+        width: 370px;
+        height: 160px;
+        resize: none;
+        margin: auto;
+    }
+    .container .content .box{
+        padding: 14px 14px 14px 14px;
+        background-color: rgb(54, 54, 99);
+        max-width: max-content;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+    }
+  }
+
+  @media screen and (max-width: 406px) {
+    .container .content{
+        width: 360px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .container .content .box textarea{
+        width: 320px;
+        height: 160px;
+        resize: none;
+        margin: auto;
+    }
+    .container .content .box{
+        padding: 14px 14px 14px 14px;
+        background-color: rgb(54, 54, 99);
+        max-width: max-content;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box label{
+        margin-top: 2%;
+    }
+    .box select{
+        margin-top: 2%;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 370px) {
+    .container .content{
+        width: 320px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .container .content .box textarea{
+        width: 280px;
+        height: 160px;
+        resize: none;
+        margin: auto;
+    }
+    .container .content .box{
+        padding: 14px 14px 14px 14px;
+        background-color: rgb(54, 54, 99);
+        max-width: max-content;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box label{
+        margin-top: 2%;
+    }
+    .box select{
+        margin-top: 2%;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 317px) {
+    .container .content{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .container .content .box textarea{
+        width: 260px;
+        height: 160px;
+        resize: none;
+        margin: auto;
+    }
+    .container .content .box{
+        padding: 14px 14px 14px 14px;
+        background-color: rgb(54, 54, 99);
+        max-width: max-content;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box label{
+        margin-top: 2%;
+    }
+    .box select{
+        margin-top: 2%;
+    }
+  }
+
+  
+  @media screen and (max-width: 300px) {
+    .container .content{
+        width: 280px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .container .content .box textarea{
+        width: 240px;
+        height: 160px;
+        resize: none;
+        margin: auto;
+    }
+    .container .content .box{
+        padding: 14px 14px 14px 14px;
+        background-color: rgb(54, 54, 99);
+        max-width: max-content;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box label{
+        margin-top: 2%;
+    }
+    .box select{
+        margin-top: 2%;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 278px) {
+    .container .content{
+        width: 260px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .container .content .box textarea{
+        width: 220px;
+        height: 160px;
+        resize: none;
+        margin: auto;
+    }
+    .container .content .box{
+        padding: 14px 14px 14px 14px;
+        background-color: rgb(54, 54, 99);
+        max-width: max-content;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box label{
+        margin-top: 2%;
+    }
+    .box select{
+        margin-top: 2%;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 256px) {
+    .container .content{
+        width: 260px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .container .content .box textarea{
+        width: 200px;
+        height: 160px;
+        resize: none;
+        margin: auto;
+    }
+    .container .content .box{
+        padding: 14px 14px 14px 14px;
+        background-color: rgb(54, 54, 99);
+        max-width: max-content;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box label{
+        margin-top: 2%;
+    }
+    .box select{
+        margin-top: 2%;
+    }
+  }

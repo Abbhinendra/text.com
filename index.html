@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="index.css">
+    <title>Text to file saver</title>
+</head>
+<body>
+    <div class="container">
+        <h2 style="width: 80vw; margin: auto; color: white; text-align: center; font-size: 22px; font-weight: 800;">Covert Your Text into a file.</h2>
+        <div class="content">
+        <div class="box">
+            <textarea name=""  cols="30" rows="10" id="val"></textarea>
+            <label for="">
+                File name
+                <input type="text" id="filename">
+            </label>
+            <label for="">File type</label>
+                <select name="" id="select">
+                    <option value="text/plain" selected>.txt</option>
+                    <option value="image/svg+xml">.svg</option>
+                    <option value="application/zip">.zip</option>
+                    <option value="text/css">.css</option>
+                    <option value="text/html">.html</option>
+                    <option value="text/javascript">.js</option>
+                    <option value="application/json">.json</option>
+                    <option value="application/msword">.doc</option>
+                    <option value="application/vnd.ms-powerpoint">.ppt</option>
+                    <option value="application/x-httpd-php">.php</option>
+                    <option value="application/vnd.ms-excel">.xls</option>
+                    <option value="application/pdf">.pdf</option>
+               </select>
+        </div>
+        <button id="btn">save</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
+
+
+
